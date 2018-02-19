@@ -10,6 +10,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
+  @import 'style/main';
+
+  body {
+    font: 100% Helvetica, sans-serif;
+    background-color: $mainbackgound;
+    color: $maincolor;
+    margin: 1rem;
+  }
 </style>
