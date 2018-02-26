@@ -1,12 +1,17 @@
 <template>
-  <div id="app">
+  <div id="app" class="">
+    <navbar brand="App"></navbar>
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {Navbar}
 }
 </script>
 
@@ -15,9 +20,6 @@ export default {
   @import 'style/main';
 
   body {
-    font: 100% Helvetica, sans-serif;
-    background-color: $mainbackgound;
-    color: $maincolor;
-    margin: 1rem;
+    padding-top: 5rem;
   }
 </style>

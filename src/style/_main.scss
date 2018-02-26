@@ -1,2 +1,7 @@
 @import 'reset';
 @import 'colors';
+@import '_bootstrap-vars';
+// all bootstrap : https://getbootstrap.com/docs/4.0/getting-started/theming/
+//noinspection CssUnknownTarget
+@import 'node_modules/bootstrap/scss/bootstrap';
+// @import 'bootstrap-parts';
